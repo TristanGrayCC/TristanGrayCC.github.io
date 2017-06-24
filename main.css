@@ -1,0 +1,96 @@
+body {
+  color: #DDDDDD;
+  background-color: #111111;
+  font-family: Calibri, sans-serif;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.background-image {
+  position: fixed;
+  left: 10%;
+  top: 15%;
+  -webkit-filter: blur(2px) brightness(60%);
+  filter: blur(2px) brightness(30%);
+}
+
+.background-image img {
+  width: 1000px;
+}
+
+.header {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.name {
+  display: inline-block;
+  position: relative;
+  left: 22%;
+  margin-top: -20px;
+}
+
+.codeclan {
+  display: inline-block;
+  position: relative;
+  width: 125px;
+  margin-left: 8%;
+  margin-top: 20px;
+}
+
+.face {
+  width: 75px;
+  border-radius: 50%;
+  float: right;
+  margin-right: 10%;
+  margin-top: 10px;
+}
+
+.profile-image {
+  margin-top: 20px;
+  width: 350px;
+}
+
+.links-tab {
+  margin-bottom: 10px;
+}
+
+.featured {
+  margin-bottom: 10px;
+}
+
+.profile-page {
+  position: fixed;
+  padding: 20px;
+  left: 10%;
+  width: 1000px;
+  height: 500px;
+  top: 15%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.profile-row {
+  position: relative;
+  width: 45%;
+  float: left;
+}
+
+.features {
+  position: relative;
+  width: 45%;
+  float: right;
+}
+
+.bio {
+  position: relative;
+  width: 75%;
+}
+
+.technologies img {
+  height: 30px;
+  margin-left: 5px;
+}
